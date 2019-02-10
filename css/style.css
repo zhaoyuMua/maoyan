@@ -1,0 +1,529 @@
+.banner{
+	width: 1326px;
+	height: 442px;
+
+}
+.banner img{
+	width: 1326px;
+	height: 442px;
+}
+
+
+
+.main{
+	width: 1184px;
+	height: 2125px;
+	background: #fff;
+	margin:79px 61px 0px 78px;
+}
+
+.main .mainA {
+	width: 1184px;
+	height: 615px;
+	background: #fff;
+	
+}
+.main .mainA .hotting{
+	width: 751px;
+	height: 614px;
+	float: left;
+}
+.main .mainA .hotting .hottingTitle{
+	width: 746px;
+	height: 48px;
+	color: #ef4238;
+}
+.main .mainA .hotting .hottingTitle h2{
+	font-weight: bold;
+	line-height: 48px;
+	text-indent: 3px;
+	float: left;
+}
+.main .mainA .hotting .hottingTitle p{
+	float: right;
+	font-size: 18px;
+	line-height: 48px;
+	
+}.main .mainA .hotting .hottingTitle p a{color: #ef4238;}
+.main .mainA .hotting .hottingMain{
+	width: 746px;
+	height: 565px;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-around;
+	justify-content: space-around;
+}
+.main .mainA .hotting .hottingMain dl{
+	width: 160px;
+	height: 262px;
+	position: relative;
+	border:1px solid #efefef;
+}
+.main .mainA .hotting .hottingMain dl dt img{
+	width: 160px;
+	height: 220px;
+}
+.main .mainA .hotting .hottingMain dl dt .hotM_p{
+	width: 160px;
+	height: 39px;
+	position: absolute;
+	background: #393634;
+	opacity: 0.5;
+	top:181px;
+}
+.main .mainA .hotting .hottingMain dl dt .word{
+	float:left;
+	color: #fff;
+	font-weight: bold;
+	position: absolute;
+	top: 190px;
+	left: 3px;
+}
+.main .mainA .hotting .hottingMain dl dt em{
+	color: #ffb400;
+	position: absolute;
+	top: 190px;
+	right: 5px;
+}
+.main .mainA .hotting .hottingMain dl dd{text-align: center;}
+.main .mainA .hotting .hottingMain dl dd:hover{background: red;}
+.main .mainA .hotting .hottingMain dl dd:hover a{color: #fff;}
+.main .mainA .hotting .hottingMain dl dd a{
+	line-height: 40px;
+	font-size: 14px;
+	color: #ef4238;
+}
+
+.main .mainA .today{
+	float: right;
+	width: 360px;
+	height: 614px;
+	overflow:hidden;
+}
+.main .mainA .today .todayTitle{
+	width: 360px;
+	height: 47px;
+	line-height: 47px;
+
+}
+.main .mainA .today .todayTitle h2{
+	font-weight: bold;
+	color: #ef4238;
+}
+.main .mainA .today .todayMain{
+	width: 360px;
+	height: 569px;
+}
+.main .mainA .today .todayMain li{
+	width: 100%;
+	height: 32px;
+	margin-top:9px;
+}
+.main .mainA .today .todayMain li:hover{background: #d9d3d3;}
+.main .mainA .today .todayMain li em{
+	float: left;
+	line-height: 32px;
+	color: #999999;
+}
+.main .mainA .today .todayMain li p{
+	float: left;
+	margin-left: 12px;
+	line-height: 32px;
+}
+.main .mainA .today .todayMain li span{
+	float: right;
+	font-size: 12px;
+	line-height: 32px;
+}
+
+.main .mainA .today .todayMain .todayNews{
+	width: 100%;
+	height: 100px;
+	margin-top: 10px;
+	overflow: hidden;
+	border:1px solid #efefef;
+}
+.main .mainA .today .todayMain .todayNews .todayNewsTitle{
+	width: 40px;
+	height: 100%;
+	background: #ef4238;
+	float: left;
+}
+.main .mainA .today .todayMain .todayNews .todayNewsTitle p{
+	width: 20px;
+	height: 100%;
+	font-size: 18px;
+	font-weight: bold;
+	color: #fff;
+	margin:0 auto;
+}
+.main .mainA .today .todayMain .todayNews .more{
+	width: 100%;
+	height: 28px;
+	margin-top: 26px;
+}
+.main .mainA .today .todayMain .todayNews .more .moreLeft{
+	float: left;
+	line-height: 28px;
+}
+.main .mainA .today .todayMain .todayNews .more .moreRight{
+	float: right;
+	line-height: 28px;
+}
+.main .mainA .today .todayMain .todayNews .time{
+	width: 100%;
+	height: 18px;
+	margin-top: 12px;
+	font-size: 14px;
+	color: #999999;
+}
+.main .mainA .today .todayMain .todayNews .time .timeLeft{
+	float: left;
+	line-height: 18px;
+}
+.main .mainA .today .todayMain .todayNews .time .timeRight{
+	float: right;
+	line-height: 18px;
+}
+
+
+
+
+
+.main .mainB{
+	width: 1184px;
+	height:749px;
+	/*background: #fff;*/
+	margin-top: 58px;
+}
+.main .mainB .upcoming{
+	width: 751px;
+	height: 100%;
+	float: left;
+}
+.main .mainB .upcoming .upcomingTitle{
+	width: 100%;
+	height: 48px;
+	color: #2d98f3;
+}
+.main .mainB .upcoming .upcomingTitle h2{
+	font-weight: bold;
+	line-height: 48px;
+	text-indent: 3px;
+	float: left;
+}
+.main .mainB .upcoming .upcomingTitle p{
+	float: right;
+	font-size: 18px;
+	line-height: 48px;
+}.main .mainB .upcoming .upcomingTitle p a{color: #2d98f3;}
+
+.main .mainB .upcoming .upcomingMain{
+	width: 100%;
+	height: 701px;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-around;
+	justify-content: space-around;
+}
+.main .mainB .upcoming .upcomingMain dl{
+	width: 162px;
+	height: 329px;
+	background: #fff;
+	position: relative;
+	border: 1px solid #efefef;
+}
+.main .mainB .upcoming .upcomingMain dl img{
+	width: 100%;
+	height: 220px;
+}
+.main .mainB .upcoming .upcomingMain dl .bg{
+	width: 100%;
+	height: 220px;
+}
+.main .mainB .upcoming .upcomingMain dl dt .upcomingM_p{
+	width: 160px;
+	height: 39px;
+	position: absolute;
+	background: #393634;
+	opacity: 0.5;
+	top:181px;
+}
+.main .mainB .upcoming .upcomingMain dl dt .word{
+	float:left;
+	color: #fff;
+	font-weight: bold;
+	position: absolute;
+	top: 190px;
+	left: 3px;
+}
+.main .mainB .upcoming .upcomingMain dl dt .wantSee{
+	width: 100%;
+	height: 34px;
+	background: #fbfbfb;
+}
+.main .mainB .upcoming .upcomingMain dl dt .wantSee p{
+	color: #fdc300;
+	font-size: 12px;
+	line-height: 34px;
+	text-indent: 11px;
+}
+.main .mainB .upcoming .upcomingMain .presell{
+	width: 100%;
+	height: 38px;
+	
+}
+.main .mainB .upcoming .upcomingMain .presell a{color: #999999;}
+.main .mainB .upcoming .upcomingMain .presell .presell_A,.presell_B{
+	width: 78px;
+	height: 100%;
+	float: left;
+	text-align: center;
+	line-height: 38px;
+}
+.main .mainB .upcoming .upcomingMain .presell .presell_B:hover{background: blue;}
+.main .mainB .upcoming .upcomingMain .presell .presell_B:hover a{color: #fff;}
+.main .mainB .upcoming .upcomingMain .presell .presell_A{
+	border-right: 1px dotted #efefef;
+}
+
+.main .mainB .upcoming .upcomingMain dl dd{
+	font-size: 12px;
+	text-align: center;
+	line-height: 38px;
+}
+.main .mainB .upcoming .upcomingMain dl dd a{color: #999999;}
+
+
+
+.main .mainB .mostPop{
+	width: 360px;
+	height: 100%;
+	float: right;
+}
+.main .mainB .mostPop .mostPopTitle{
+	width: 100%;
+	height: 48px;
+	color: #ffb400;
+}
+.main .mainB .mostPop .mostPopTitle h2{
+	font-weight: bold;
+	line-height: 48px;
+	text-indent: 3px;
+	float: left;
+}
+.main .mainB .mostPop .mostPopTitle p{
+	float: right;
+	font-size: 18px;
+	line-height: 48px;
+}.main .mainB .mostPop .mostPopTitle p a{color: #ffb400;}
+.main .mainB .mostPop .mostPopMain .listTwo{
+	margin-top: 20px;
+	height: 185px;
+}
+.main .mainB .mostPop .mostPopMain .listTwo dl{
+	width: 168px;
+	height: 185px;
+	border: 1px solid #efefef;
+	float: left;
+}
+.main .mainB .mostPop .mostPopMain .listTwo .listRight{
+	margin-left: 19px;
+}
+.main .mainB .mostPop .mostPopMain .listTwo img{
+	width: 170px;
+	height: 117px;
+}
+.main .mainB .mostPop .mostPopMain .listTwo p:nth-of-type(1),p:nth-of-type(3){
+	font-size: 16px;
+	line-height: 40px;
+	text-indent: 10px;
+}
+.main .mainB .mostPop .mostPopMain .listTwo p:nth-of-type(2),p:nth-of-type(3){
+	text-indent: 10px;
+	color: #fed07b;
+	font-size: 12px;
+}
+
+.main .mainB .mostPop .mostPopMain li{
+	width: 100%;
+	height: 32px;
+	margin-top:9px;
+}
+.main .mainB .mostPop .mostPopMain li:hover{background: #d9d3d3;}
+.main .mainB .mostPop .mostPopMain li em{
+	float: left;
+	line-height: 32px;
+	color: #999999;
+}
+.main .mainB .mostPop .mostPopMain li p{
+	float: left;
+	margin-left: 12px;
+	line-height: 32px;
+}
+.main .mainB .mostPop .mostPopMain li span{
+	float: right;
+	font-size: 12px;
+	line-height: 32px;
+}
+
+
+
+
+
+
+.main .mainC{
+	width: 1184px;
+	height:542px;
+	margin-top: 77px;
+}
+.main .mainC .hotPlay{
+	width: 739px;
+	height: 100%;
+	float: left;
+}
+.main .mainC .hotPlay .hotPlayTitle{
+	width: 100%;
+	height: 45px;
+	overflow:hidden;
+}
+.main .mainC .hotPlay .hotPlayTitle h2{
+	font-weight: bold;
+	line-height: 48px;
+	text-indent: 3px;
+	float: left;
+	color: #ef4238;
+}
+.main .mainC .hotPlay .hotPlayTitle .classify{
+	float: left;
+}
+.main .mainC .hotPlay .hotPlayTitle .classify li{
+	float: left;
+}
+.main .mainC .hotPlay .hotPlayTitle .classify ul{
+	margin-top: 20px;
+	margin-left: 18px;
+}
+.main .mainC .hotPlay .hotPlayTitle .classify li a{
+	float: left;
+	width: 42px;
+	height: 19px;
+	line-height: 19px;
+	font-size: 12px;
+}
+.main .mainC .hotPlay .hotPlayTitle p{
+	float: right;
+	font-size: 18px;
+	line-height: 48px;
+	
+}.main .mainC .hotPlay .hotPlayTitle p a{color: #ef4238;}
+
+.main .mainC .hotPlay .hotPlayMain{
+	width: 100%;
+	height: 497px;
+	display: flex;
+	align-content: space-around;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.main .mainC .hotPlay .hotPlayMain .dl{
+	width: 349px;
+	height: 221px;
+	background: #989f94;
+	position: relative;
+	border: 1px solid #efefef;
+	overflow:hidden;
+}
+.main .mainC .hotPlay .hotPlayMain .dl .hotM_p{
+	width: 349px;
+	height: 39px;
+	position: absolute;
+	background: #393634;
+	opacity: 0.5;
+	top:184px;
+}
+.main .mainC .hotPlay .hotPlayMain .dl .word{
+	float:left;
+	color: #fff;
+	font-weight: bold;
+	position: absolute;
+	top: 195px;
+	left: 3px;
+}
+.main .mainC .hotPlay .hotPlayMain .dl em{
+	color: #ffb400;
+	position: absolute;
+	top: 195px;
+	right: 5px;
+}
+.main .mainC .hotPlay .hotPlayMain .dt{
+	width: 159px;
+	height: 221px;
+	background: #121f23;
+	border: 1px solid #efefef;
+	position: relative;
+}
+.main .mainC .hotPlay .hotPlayMain .dt .hotM_p{
+	width: 159px;
+	height: 39px;
+	position: absolute;
+	background: #393634;
+	opacity: 0.5;
+	top:184px;
+}
+.main .mainC .hotPlay .hotPlayMain .dt .word{
+	float:left;
+	color: #fff;
+	font-weight: bold;
+	position: absolute;
+	top: 195px;
+	left: 3px;
+}
+.main .mainC .hotPlay .hotPlayMain .dt em{
+	color: #ffb400;
+	position: absolute;
+	top: 195px;
+	right: 5px;
+}
+
+
+.main .mainC .toplist{
+	float: right;
+	width: 357px;
+	height: 100%;
+}
+.main .mainC .toplist .toplistTitle{
+	width: 100%;
+	height: 47px;
+	line-height: 47px;
+
+}
+.main .mainC .toplist .toplistTitle h2{
+	font-weight: bold;
+	color: #ef4238;
+	float: left;
+}
+.main .mainC .toplist .toplistTitle p{
+	float: right;
+}
+.main .mainC .toplist .toplistMain li{
+	width: 100%;
+	height: 32px;
+	margin-top:9px;
+}
+.main .mainC .toplist .toplistMain li:hover{background: #d9d3d3;}
+.main .mainC .toplist .toplistMain li em{
+	float: left;
+	line-height: 32px;
+	color: #999999;
+}
+.main .mainC .toplist .toplistMain li p{
+	float: left;
+	margin-left: 12px;
+	line-height: 32px;
+}
+.main .mainC .toplist .toplistMain li span{
+	float: right;
+	font-size: 12px;
+	line-height: 32px;
+}

@@ -1,0 +1,352 @@
+body,ul,li,dl,dt,dd,p,ol,h1,h2,h3,h4,h5,h6,form,img,table,fieldset,legend{margin:0; padding:0;}
+ul,li,ol{list-style:none;}
+img,fieldset{border:0; }
+img{display:block;}
+a{text-decoration:none; color:#333;}
+h1,h2,h3,h4,h5,h6{font-weight:100;}
+body{ font-family:"微软雅黑";}
+input,a{outline:none;}
+
+
+.box{
+	width: 1326px;
+	height: 2939px;
+	background: #fff;
+	margin: 0 auto;
+}
+
+header{
+	width: 100%;
+	height: 80px;
+	background: #fff;
+}
+header .logo{
+	float: left;
+	margin-left: 62px;
+	margin-top: 20px;
+}
+
+header .sele{
+	float: left;
+	width: 73px;
+	height: 100%;
+	margin-left: 11px;
+	line-height: 81px;
+	position: relative;
+	margin-right: 4px;
+	box-sizing: border-box;
+}
+
+header .sele p{
+	margin-left:10px;
+}
+header .sele .icon-sanjiao{
+	position: absolute;
+	width: 8px;
+	height: 8px;
+	top: 3px;
+	right: 16px;
+}
+
+header .sele .sele_box{
+	position: absolute;
+	width: 482px;
+	height: 328px;
+	background: #fff;
+	top: 80px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	display: none;
+	border: 1px solid #dbd4d4;
+	border-top: none;
+}
+header .sele .sele_box .sele_box_header p{
+	width: 100%;
+	height: 53px;
+	line-height: 53px;
+	border-bottom: 1px solid #dad7d7;
+}
+
+header .sele .sele_box .sele_box_main{
+	margin-left: 10px;
+	margin-top: 10px;
+	z-index: 10;
+}
+header .sele .sele_box .sele_box_main span{
+	float: left;
+	line-height: 30px;
+}
+header .sele .sele_box .sele_box_main a{
+	float: left;
+	margin-left: 6px;
+	line-height: 30px;
+	font-size: 14px;
+}
+header .sele .sele_box .sele_box_main a:hover{
+	color: #ef4238;
+}
+header .sele .sele_box .sele_box_main .sele_box_mainA,.sele_box_mainB,.sele_box_mainC,.sele_box_mainD{
+	float: left;
+}
+
+header .sele:hover{
+	outline: 1px solid #dbd4d4;
+}
+header .sele:hover p{
+	margin-left: 10px;
+}
+header .sele:hover .sele_box{
+	display: block;
+	left:-1px;
+}
+
+
+header ul li{
+	float: left;
+}
+header ul li a{
+	display: inline-block;
+	width: 80px;
+	height: 100%;
+	text-align: center;
+	line-height: 81px;
+}
+header ul li a:hover{
+	color: #ef4238;
+}
+
+
+
+
+header .APPdownload{
+	width: 139px;
+	height: 100%;
+	line-height: 81px;
+	margin-left: 1px;
+	float: left;
+	text-align: center;
+	position: relative;
+}
+header .APPdownload i{
+	width: 14px;
+	height: 28px;
+	position: absolute;
+	top:4px;
+	left: 20px;
+}
+header .APPdownload em{
+	width: 8px;
+	height: 8px;
+	position: absolute;
+	right: 19px;
+	top:3px;
+}
+
+
+header .APPdownload .APPdownload_box{
+	width: 139px;
+	height: 162px;
+	background: #fff;
+	position: absolute;
+	border:1px solid #dbd4d4;
+	border-top: none;
+	top:80px;
+	display: none;
+}
+header .APPdownload .APPdownload_box img{
+	width: 131px;
+	height: 116px;
+	margin:3px auto;
+}
+header .APPdownload .APPdownload_box p{
+	height: 18px;
+	line-height: 23px;
+	font-size: 12px;
+}
+
+header .APPdownload:hover{
+	outline: 1px solid #dbd4d4;
+}
+header .APPdownload:hover .APPdownload_box{
+	display: block;
+	left:-1px;
+}
+
+
+header .search{
+	width: 261px;
+	height: 40px;
+	float: left;
+	margin-top:19px;
+	margin-left:10px;
+	border-radius: 21px;
+	border: 1px solid #c1c1c1;
+}
+header .search input{
+	width: 221px;
+	float: left;
+	line-height: 38px;
+	border-radius: 21px;
+	text-indent: 22px;
+	border: none;
+}
+header .search button{
+	width: 40px;
+	height: 40px;
+	background: #ef4238;
+	float: left;
+	border: none;
+	border-radius: 50%;
+	outline: none;
+	position: relative;
+}
+header .search button i{
+	width: 22px;
+	height: 22px;
+	position: absolute;
+	top:9px;
+	left: 9px;
+	font-size: 22px;
+	color: #fff;
+}
+
+
+header .logon{
+	width: 70px;
+	height: 100%;
+	float: left;
+	margin-left: 12px;
+	position: relative;
+
+}
+header .logon i{
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 21px;
+	left: 7px;
+	border-radius: 50%;
+	background: #e3e3e3;
+	text-align: center;
+	line-height: 55px;
+	font-size:30px;
+}
+header .logon em{
+	width: 8px;
+	height: 8px;
+	position: absolute;
+	top:35px;
+	right: 5px;
+}
+
+header .logon .logon_box{
+	position: absolute;
+	width: 76px;
+	height: 40px;
+	background: #fff;
+	top:80px;
+	left:-7px;
+	border: 1px solid #dbd4d4;
+	border-top: none;
+	display: none;
+}
+header .logon .logon_box button{
+	width: 60px;
+	height: 20px;
+	margin:16px 6px 0px 6px;
+	border: none;
+	background: #fff;
+	
+}
+
+header .logon:hover{
+	outline: 1px solid #dbd4d4;
+}
+header .logon:hover .logon_box{
+	display: block;
+}
+header .logon .logon_box button:hover a{
+	color: #ef4238;
+}
+
+
+
+footer{
+	width: 1326px;
+	height: 211px;
+	background: #262426;
+	overflow:hidden;
+}
+footer .lis1{
+	width: 615px;
+	height: 18px;
+	margin:57px 0px 0px 368px;
+	font-size: 12px;
+	overflow:hidden;
+}
+footer .lis1 .about{
+	margin-left: 25px;
+	float: left;
+	color: #444444;
+}
+footer .lis1 .jiange{
+	float: left;
+	width: 1px;
+	height: 16px;
+	background: #444444;
+	margin-top:1px;
+	margin-left: 10px;
+	margin-right:10px;
+}
+footer .lis1 .impor{
+	float: left;
+	color: #ef3529;
+}
+
+footer .lis2{
+	width: 545px;
+	height: 14px;
+	/*margin-left: 363px;*/
+	margin: 5px auto;
+	color: #444444;
+}
+footer .lis2 p{
+	font-size: 12px;
+	margin:0 auto;
+}
+
+footer .lis3{
+	width: 530px;
+	height: 14px;
+	/*margin-left: 363px;*/
+	margin: 5px auto;
+	color: #444444;
+}
+footer .lis3 p{
+	font-size: 12px;
+	margin:0 auto;
+}
+
+footer .lis4{
+	width: 800px;
+	height: 14px;
+	/*margin-left: 363px;*/
+	margin: 5px auto;
+	color: #444444;
+}
+footer .lis4 p{
+	font-size: 12px;
+	margin:0 auto;
+}
+
+footer .lis5{
+	width: 150px;
+	height: 14px;
+	/*margin-left: 363px;*/
+	margin: 5px auto;
+	color: #444444;
+}
+footer .lis5 p{
+	font-size: 12px;
+	margin:0 auto;
+}
